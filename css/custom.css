@@ -1,0 +1,472 @@
+﻿.shape-divider svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Modern Cards */
+.masonry-container .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.masonry-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+.card-zoom,
+.card {
+  padding: 1.5rem !important;
+}
+
+.card-img-top {
+  height: 250px !important;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+#experience {
+  background-color: #ffffff;
+  padding: 100px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#experience h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+#contributions h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+
+#skills h2{
+    font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+#education h2{
+    font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+#certifications h2{
+    font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+#contact h2{
+    font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+#achievements h2{
+    font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+
+
+
+#experience p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Internship Card */
+#experience .card {
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+#experience .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Job Title and Company */
+#experience .card h5 {
+  color: #2B3A55;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#experience .card small {
+  color: #888;
+}
+
+/* Calendar and Location */
+#experience .card .text-muted i {
+  color: #2B3A55;
+  opacity: 0.8;
+}
+
+/* Experience List */
+#experience .card ul {
+  margin-top: 1rem;
+}
+
+#experience .card li {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Bottom Badge and Link */
+#experience .card .badge {
+  padding: 0.5em 1em;
+  font-size: 0.85rem;
+  background-color: #e9ecef;
+  border: 1px solid #ddd;
+}
+
+#experience .card .text-primary {
+  color: #2B3A55 !important;
+}
+
+#experience .card a.text-primary:hover {
+  color: #339af0 !important;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #experience h2 {
+    font-size: 2rem;
+  }
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img.rounded-3 {
+  transition: transform 0.4s ease;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Rounded Buttons */
+.btn-outline-primary {
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary.active {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+
+/* Custom Zoom Class */
+.card-zoom {
+  overflow: hidden;
+}
+.card-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Badge - Light Theme */
+.badge.bg-light {
+  background-color: #f1f1f1 !important;
+  font-weight: 500;
+}
+
+/* Icon Colors */
+.fab.fa-java { color: #f89820; }
+.fab.fa-cuttlefish { color: #007bff; }
+.fas.fa-code { color: #2B3A55; }
+.fas.fa-check-circle { color: #2B3A55; }
+
+/* AOS Animation Scroll Delay Fix */
+[data-aos-delay="200"] { animation-delay: 200ms !important; }
+[data-aos-delay="300"] { animation-delay: 300ms !important; }
+[data-aos-delay="400"] { animation-delay: 400ms !important; }
+.card.border-0.shadow-sm {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.badge.bg-light {
+  background-color: #f1f1f1 !important;
+  font-weight: 500;
+}
+#portfolio {
+  background-color: #ffffff;
+  padding: 80px 0 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Section Heading */
+#portfolio h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2B3A55;
+}
+
+#portfolio p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Masonry Filter Buttons */
+#portfolio .masonry-filter .btn {
+  background-color: #fff;
+  color: #000 !important;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  border-radius: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: all 0.3s ease;
+}
+
+#portfolio .masonry-filter .btn:hover {
+  background-color: #339af0 !important;
+  color: #fff !important;
+  border-color: #339af0 !important;
+  transform: scale(1.05);
+}
+
+#portfolio .masonry-filter .btn.active {
+  background-color: #2B3A55 !important;
+  color: #fff !important;
+  border-color: #2B3A55 !important;
+}
+
+/* Project Card Layout */
+.masonry-container .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.masonry-container .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Card Image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1rem 1.25rem;
+  background-color: #fff;
+}
+
+.card-body .card-title {
+  font-weight: 600;
+  color: #2B3A55;
+}
+
+.card-body .card-text {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Feature List */
+.card-body ul {
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.card-body li {
+  margin-bottom: 6px;
+  color: #444;
+  font-size: 0.85rem;
+}
+
+/* Featherlight Overrides (if needed) */
+.featherlight .featherlight-content {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  #portfolio h2 {
+    font-size: 2rem;
+  }
+
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+/* Card Styling */
+/* Card Zoom on Hover */
+.card-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-zoom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Soft background cards */
+.card.border-0.shadow-sm {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* Icon Colors */
+.fab.fa-java { color: #f89820; }
+.fab.fa-cuttlefish { color: #007bff; }
+.fas.fa-code { color: #f76324; }
+
+/* Checkmarks */
+.fas.fa-check-circle { color: #2B3A55; }
+
+/* Responsive Padding */
+.card-body {
+  padding: 1rem;
+}
+
+.card-img-top {
+  transition: transform 0.4s ease;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-zoom:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Icons in Cards */
+.card-body i.fab.fa-matlab {
+  color: #e63946;
+}
+.card-body i.fab.fa-java {
+  color: #f77f00;
+}
+.card-body i.fas.fa-check-circle {
+  color: #2a9d8f;
+}
+.card-zoom {
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-zoom:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-zoom:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Masonry filter buttons */
+.masonry-filter a.active {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.navbar-brand {
+  margin-left: 15px;
+}
+.badge {
+  font-size: 0.9rem;
+  padding: 0.4em 0.6em;
+}
+
+.list-check li::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+  color: #040d1a;
+}
+
+.timeline-item:nth-child(odd) .ps-md-5 {
+  border-left: 3px dashed #ccc;
+}
+.timeline-item:nth-child(even) .ps-md-5 {
+  border-left: 3px dashed #ccc;
+}
+
+.timeline-item .ps-md-5 {
+  position: relative;
+}
+.timeline-item .ps-md-5::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  border: 3px solid #0e1219;
+  border-radius: 50%;
+  display: none;
+}
+.card {
+      background-color: #f9f9f9;
+      border: none;
+      border-radius: 10px;
+      padding: 2rem;
+      height: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    h5 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .h6 i {
+      color: #205793;
+    }
+
+    .about-section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
